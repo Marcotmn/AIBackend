@@ -1,3 +1,23 @@
-node_modules
-dist
+# Node / build
+node_modules/
+dist/
+.tmp/
+coverage/
+
+# Log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Env (mai committare segreti)
 .env
+.env.*
+
+# OS / editor
+.DS_Store
+*.swp
+.idea/
+
+# TypeScript
+*.tsbuildinfo
